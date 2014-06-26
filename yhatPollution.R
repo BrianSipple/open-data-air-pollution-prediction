@@ -127,8 +127,8 @@ model.predict <- function() {
 
 
 ## Create a vector for yhat upload containing username, apikey, and env (the website url) 
-yhat.config <- c(username = "Bsipple57@gmail.com",
-                 apikey = "56bf5f8dbe504c900c77e61522f3f7f3",
+yhat.config <- c(username = "[EMAIL_ADDRESS]",
+                 apikey = "[INSERT_API_KEY_HERE]",
                  env = "http://sandbox.yhathq.com/")
 
 yhat.deploy("Pollutant_Predictor")
